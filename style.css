@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: black;
+    color: white;
+}
+nav h1:hover{
+    background-color: grey;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav div a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav div a:hover{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tabel-apoteker{
+    background-color: yellow;
+    text-align: center;
+}
+
+.tabel-obat{
+    background-color: aqua;
+    text-align: center;
+}
+
+.tabel-pelanggan{
+    background-color: tomato;
+    text-align: center;
+}
+
+.tabel-transaksi{
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.tabel-detail-transaksi{
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin: 20px;
+}
+
+.bungkus {
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin: 20px;
+}
+
+.bungkus img{
+    width: 70%;
+}
